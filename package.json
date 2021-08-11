@@ -1,0 +1,39 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "expo:start": "BROWSER=none expo start",
+    "svg:jsx": "svgr src/telicon-3.0.0.svg > src/SvgTelicon.tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "^42.0.0",
+    "expo-updates": "~0.8.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-svg": "12.1.1",
+    "react-native-unimodules": "~0.14.5",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@svgr/cli": "^5.5.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "babel-preset-expo": "8.3.0",
+    "jest-expo": "^42.0.0",
+    "react-native-svg-transformer": "^0.14.3",
+    "typescript": "~4.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
